@@ -1,0 +1,19 @@
+import React from 'react';
+
+function PageNotFoundPage(){
+    return(
+        <div class="page-wrap d-flex flex-row align-items-center">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 text-center">
+                        <span class="display-1 d-block">404</span>
+                        <div class="mb-4 lead">ไม่พบหน้าเว็บที่คุณต้องการ</div>
+                        <a href="./" class="btn btn-outline-primary">คลิ๊กที่นี่เพื่อกลับหน้าหลัก</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default PageNotFoundPage;
